@@ -1,8 +1,29 @@
 aid: opentoken
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opentoken.png
 name: OpenToken
-description: 'OpenToken is a company surfaced as a portfolio company of pantera-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'OpenToken (OpenToken Inc.) was a San Francisco based cryptocurrency
+  startup founded in 2017 that operated a token-fundraising and token-project
+  aggregation platform, generating a secure, per-buyer funding address for each
+  contributor so token projects could collect and distribute assets during their
+  sales. The company was backed by Bain Capital Ventures, Pantera Capital, and
+  Moonwhale Ventures. It is no longer active: the opentoken.com domain is parked
+  (it refuses HTTPS connections and resolves to OnlyDomains parking nameservers),
+  and no public developer portal, API documentation, machine-readable API
+  specification, or first-party SDK could be located for the company. This
+  profile was surfaced as a portfolio company of Pantera Capital and remains a
+  defunct-company record in the API Evangelist network; there is no live API
+  surface to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/opentoken/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +31,18 @@ x-backed-by:
 - pantera-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto
+- Blockchain
+- Tokenization
+- Fundraising
+- Digital Assets
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,8 @@ maintainers:
 common:
 - type: Website
   url: https://opentoken.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
